@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1558429802 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\singlylinkedlist.cpp
+	<assert.h>
+	"SLLNode.h"
+	"SinglyLinkedList.h"
+
+1558427658 c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\singlylinkedlist.h
+	"SLLNode.h"
+
+1558429929 source:c:\users\seanc\desktop\codeblocks projects\algorithms\main.cpp
+	<iostream>
+	"utils.h"
+	"DataStructures/SinglyLinkedList.h"
+
+1558427801 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\sllnode.cpp
+	"SLLNode.h"
+
+1558413981 c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\sllnode.h
+
+1558421822 c:\users\seanc\desktop\codeblocks projects\algorithms\utils.h
+
