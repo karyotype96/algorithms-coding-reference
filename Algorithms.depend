@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1558429802 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\singlylinkedlist.cpp
+1558470934 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\singlylinkedlist.cpp
 	<assert.h>
 	"SLLNode.h"
 	"SinglyLinkedList.h"
@@ -7,15 +7,19 @@
 1558427658 c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\singlylinkedlist.h
 	"SLLNode.h"
 
-1558429929 source:c:\users\seanc\desktop\codeblocks projects\algorithms\main.cpp
+1558560526 source:c:\users\seanc\desktop\codeblocks projects\algorithms\main.cpp
 	<iostream>
+	<vector>
 	"utils.h"
-	"DataStructures/SinglyLinkedList.h"
+	"Sorts/Sorts.h"
 
 1558427801 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\sllnode.cpp
 	"SLLNode.h"
 
 1558413981 c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\sllnode.h
 
-1558421822 c:\users\seanc\desktop\codeblocks projects\algorithms\utils.h
+1558495517 c:\users\seanc\desktop\codeblocks projects\algorithms\utils.h
+
+1558559907 c:\users\seanc\desktop\codeblocks projects\algorithms\sorts\sorts.h
+	<vector>
 

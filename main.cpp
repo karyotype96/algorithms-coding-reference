@@ -1,37 +1,22 @@
 #include <iostream>
+#include <vector>
 
 #include "utils.h"
-#include "DataStructures/SinglyLinkedList.h"
+#include "Sorts/Sorts.h"
 
 using namespace std;
 
 int main()
 {
-    SinglyLinkedList s(30);
-    s.append(60);
-    s.append(90);
+    vector<int> v = {81, 99, 43, 18, 63, 11, 34, 80, 39, 79,
+                      82, 26, 87, 44,  2, 33, 62, 66, 46, 58,
+                      38, 98, 24,  3, 51, 31, 78, 68, 45, 99};
 
-    cout << "First list:\t\t";
-    for (int i = 0; i < s.getLength(); i++){
-        cout << s.get(i) << " ";
-    }
-    cout << endl;
+    printVector("Unsorted vector", v);
 
-    s.insert(2, 120);
+    v = Sorts::mergeSort(v, 0, v.size() - 1);
 
-    cout << "After insertion:\t";
-    for (int i = 0; i < s.getLength(); i++){
-        cout << s.get(i) << " ";
-    }
-    cout << endl;
-
-    s.remove(3);
-
-    cout << "After removal:\t\t";
-    for (int i = 0; i < s.getLength(); i++){
-        cout << s.get(i) << " ";
-    }
-    cout << endl;
+    printVector("Sorted vector", v);
 
     return 0;
 }

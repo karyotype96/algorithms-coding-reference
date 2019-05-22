@@ -55,6 +55,10 @@ void SinglyLinkedList::insert(int position, int value){
     this->length++;
 }
 
+// Gets rid of the node at the index specified. It does this
+// by changing the pointer of the preceding node to point to
+// the node that comes after the one we're deleting, and then
+// freeing the space allocated for the node.
 void SinglyLinkedList::remove(int position){
     SLLNode *prev, *current = this->head;
     assert(position >= 0 && position < this->length);
