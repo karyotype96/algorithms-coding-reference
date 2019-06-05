@@ -2,21 +2,25 @@
 #include <vector>
 
 #include "utils.h"
-#include "Sorts/Sorts.h"
+#include "DLLNode.h"
+#include "DoublyLinkedList.h"
 
 using namespace std;
 
 int main()
 {
-    vector<int> v = {81, 99, 43, 18, 63, 11, 34, 80, 39, 79,
-                      82, 26, 87, 44,  2, 33, 62, 66, 46, 58,
-                      38, 98, 24,  3, 51, 31, 78, 68, 45, 99};
+    DoublyLinkedList dll(3);
 
-    printVector("Unsorted vector", v);
+    dll.append(5);
+    dll.append(8);
 
-    v = Sorts::mergeSort(v, 0, v.size() - 1);
+    dll.insert(2, 11);
 
-    printVector("Sorted vector", v);
+    dll.remove(1);
+
+    for (int i = 0; i < dll.getLength(); i++){
+        cout << dll.get(i) << endl;
+    }
 
     return 0;
 }

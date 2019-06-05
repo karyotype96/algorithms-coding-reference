@@ -7,11 +7,13 @@
 1558427658 c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\singlylinkedlist.h
 	"SLLNode.h"
 
-1558560526 source:c:\users\seanc\desktop\codeblocks projects\algorithms\main.cpp
+1559711977 source:c:\users\seanc\desktop\codeblocks projects\algorithms\main.cpp
 	<iostream>
 	<vector>
+	<tuple>
 	"utils.h"
-	"Sorts/Sorts.h"
+	"DLLNode.h"
+	"DoublyLinkedList.h"
 
 1558427801 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\sllnode.cpp
 	"SLLNode.h"
@@ -20,6 +22,18 @@
 
 1558495517 c:\users\seanc\desktop\codeblocks projects\algorithms\utils.h
 
-1558559907 c:\users\seanc\desktop\codeblocks projects\algorithms\sorts\sorts.h
+1558564225 c:\users\seanc\desktop\codeblocks projects\algorithms\sorts\sorts.h
 	<vector>
+
+1559707678 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\dllnode.cpp
+	"DLLNode.h"
+
+1559707678 c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\dllnode.h
+
+1559707684 c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\doublylinkedlist.h
+
+1559707703 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\doublylinkedlist.cpp
+	<assert.h>
+	"DLLNode.h"
+	"DoublyLinkedList.h"
 
