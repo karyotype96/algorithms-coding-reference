@@ -2,25 +2,19 @@
 #include <vector>
 
 #include "utils.h"
-#include "DLLNode.h"
-#include "DoublyLinkedList.h"
+#include "Compression/RunLengthEncoding.h"
 
 using namespace std;
 
 int main()
 {
-    DoublyLinkedList dll(3);
+    string str = "yttttttttttttttttttttttttttttttttt";
+    string str_encoded = RunLengthEncoding::encode(str);
+    string str_decoded = RunLengthEncoding::decode(str_encoded);
 
-    dll.append(5);
-    dll.append(8);
-
-    dll.insert(2, 11);
-
-    dll.remove(1);
-
-    for (int i = 0; i < dll.getLength(); i++){
-        cout << dll.get(i) << endl;
-    }
+    cout << "        String: " << str << endl;
+    cout << "Encoded String: " << str_encoded << endl;
+    cout << "Decoded String: " << str_decoded << endl;
 
     return 0;
 }

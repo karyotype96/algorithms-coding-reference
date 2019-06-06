@@ -7,13 +7,11 @@
 1558427658 c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\singlylinkedlist.h
 	"SLLNode.h"
 
-1559711977 source:c:\users\seanc\desktop\codeblocks projects\algorithms\main.cpp
+1559802505 source:c:\users\seanc\desktop\codeblocks projects\algorithms\main.cpp
 	<iostream>
 	<vector>
-	<tuple>
 	"utils.h"
-	"DLLNode.h"
-	"DoublyLinkedList.h"
+	"Compression/RunLengthEncoding.h"
 
 1558427801 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\sllnode.cpp
 	"SLLNode.h"
@@ -36,4 +34,8 @@
 	<assert.h>
 	"DLLNode.h"
 	"DoublyLinkedList.h"
+
+1559802646 c:\users\seanc\desktop\codeblocks projects\algorithms\compression\runlengthencoding.h
+	<iostream>
+	<string>
 
