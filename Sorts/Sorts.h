@@ -67,7 +67,6 @@ class Sorts
         // the two to a new list, and then advancing the index of the chosen
         // list by 1. Rinse and repeat.
 
-        // Note that "low" is inclusive and "high" is exclusive.
         static std::vector<int> mergeSort(std::vector<int> arr, int left, int right){
             int middle = (right - left) / 2 + left;
             if (left < right){

@@ -7,11 +7,11 @@
 1558427658 c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\singlylinkedlist.h
 	"SLLNode.h"
 
-1559802505 source:c:\users\seanc\desktop\codeblocks projects\algorithms\main.cpp
+1560222667 source:c:\users\seanc\desktop\codeblocks projects\algorithms\main.cpp
 	<iostream>
 	<vector>
 	"utils.h"
-	"Compression/RunLengthEncoding.h"
+	"DataStructures/Queue.h"
 
 1558427801 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\sllnode.cpp
 	"SLLNode.h"
@@ -38,4 +38,30 @@
 1559802646 c:\users\seanc\desktop\codeblocks projects\algorithms\compression\runlengthencoding.h
 	<iostream>
 	<string>
+
+1559804738 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\stacknode.cpp
+	"StackNode.h"
+
+1559804749 c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\stacknode.h
+
+1560218591 c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\stack.h
+	"StackNode.h"
+
+1560218851 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\stack.cpp
+	"Stack.h"
+	"StackNode.h"
+	<assert.h>
+
+1560222315 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\queuenode.cpp
+	"QueueNode.h"
+
+1560222360 c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\queuenode.h
+
+1560222315 c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\queue.h
+	"QueueNode.h"
+
+1560222646 source:c:\users\seanc\desktop\codeblocks projects\algorithms\datastructures\queue.cpp
+	"Queue.h"
+	"QueueNode.h"
+	<assert.h>
 

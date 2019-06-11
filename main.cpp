@@ -2,19 +2,20 @@
 #include <vector>
 
 #include "utils.h"
-#include "Compression/RunLengthEncoding.h"
+#include "DataStructures/Queue.h"
 
 using namespace std;
 
 int main()
 {
-    string str = "yttttttttttttttttttttttttttttttttt";
-    string str_encoded = RunLengthEncoding::encode(str);
-    string str_decoded = RunLengthEncoding::decode(str_encoded);
+    Queue q;
+    q.enqueue(5);
+    q.enqueue(7);
+    q.enqueue(9);
 
-    cout << "        String: " << str << endl;
-    cout << "Encoded String: " << str_encoded << endl;
-    cout << "Decoded String: " << str_decoded << endl;
+    while (!q.is_empty()){
+        cout << q.dequeue() << endl;
+    }
 
     return 0;
 }
