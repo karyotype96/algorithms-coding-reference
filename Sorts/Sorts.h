@@ -13,8 +13,9 @@ class Sorts
         // swapped. It has a complexity of O(n^2)
         static std::vector<int> bubbleSort(std::vector<int> arr){
             for (int i = 0; i < arr.size() - 1; i++){
-                for (int j = 0; j < arr.size() - 1; j++){
+                for (int j = 0; j < arr.size() - 1; j++){ // Run through the list several times...
                     if (arr[j] > arr[j+1]){
+                        // Swap the elements if the one on the left is greater.
                         std::swap(arr[j], arr[j+1]);
                     }
                 }
@@ -29,12 +30,14 @@ class Sorts
         // Like bubble sort, selection sort has a complexity of O(n^2), but
         // it appears to do marginally better in the average case.
         static std::vector<int> selectionSort(std::vector<int> arr){
-            int smallest;
+            int smallest; // The index of the smallest element in the list.
             for (int i = 0; i < arr.size() - 1; i++){
-                smallest = i;
-                for (int j = i+1; j < arr.size(); j++){
+                smallest = i; // Start at the unsorted section of the list...
+                for (int j = i+1; j < arr.size(); j++){ // Advance through it...
+                    // ...and store the smallest element position.
                     if (arr[j] < arr[smallest]) smallest = j;
                 }
+                // Then swap the start of the unsorted section with the smallest item.
                 std::swap(arr[i], arr[smallest]);
             }
 
